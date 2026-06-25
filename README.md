@@ -1,6 +1,6 @@
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://raw.githubusercontent.com/QuantLet/Styleguide-and-FAQ/master/pictures/banner.png" alt="Visit QuantNet">](http://quantlet.com/)
 
-## ![qlogo](http://quantlet.de/graphics/Quantlet2.png) **IDA_FRMspillover**
+## **IDA_FRMspillover**
 
 ```yaml
 Name of QuantLet: IDA_FRMspillover
