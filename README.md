@@ -1,0 +1,30 @@
+<div style="margin: 0; padding: 0; text-align: center; border: none;">
+<a href="https://quantlet.com" target="_blank" style="text-decoration: none; border: none;">
+<img src="https://github.com/StefanGam/test-repo/blob/main/quantlet_design.png?raw=true" alt="Header Image" width="100%" style="margin: 0; padding: 0; display: block; border: none;" />
+</a>
+</div>
+
+```
+Name of QuantLet: IDA_FRMspillover
+
+Published in: Institute for Digital Assets (IDA)
+
+Description: Computes two systemic-risk indices on the same rolling windows of real daily digital-asset returns (12 liquid assets, 2021-2024, Yahoo Finance): an FRM-style tail-connectedness index (mean L1 norm of penalised 5% quantile-regression coefficients of each asset on the others, a Haerdle-FRM proxy) and a Diebold-Yilmaz total connectedness index from a VAR(1) generalised forecast-error-variance decomposition. The FRM-style index is elevated and rising into the Terra/Luna collapse (May 2022) but does not locally lead the idiosyncratic FTX failure (Nov 2022) - the contrast motivating a finite-sample reliability theory for systemic tail-risk meters.
+
+Keywords: FRM, financial risk meter, systemic risk, tail risk, quantile regression, LASSO, connectedness, Diebold-Yilmaz, spillover, cryptocurrency, network, VaR
+
+Author: Daniel Traian Pele
+
+Submitted: 25 June 2026
+
+Datafiles: prices_cache.csv
+
+Output: systemic_indices.png, systemic_indices.csv, poc_results.md
+
+Example: systemic_indices.png - FRM-style tail-connectedness index (top) and Diebold-Yilmaz total connectedness index (bottom) on a 12-asset digital-asset network, with the Terra/Luna (May 2022) and FTX (Nov 2022) onsets marked.
+
+```
+<div align="center">
+<img src="https://raw.githubusercontent.com/QuantLet/IDA_FRMspillover/main/systemic_indices.png" alt="Image" />
+</div>
+
